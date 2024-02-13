@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/36650b7c30.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="stylesheet" href="src/styles.css" />
+    <title>Find Your Hotel</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  </head>
+  <body>
+    <header>
+      <!-- navigation block -->
+      <div class="nav-wrapper">
+        <div class="logo-block">
+          <button class="mobile-nav-toggle">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+          <a href="#" class="logo"
+            ><span class="accent-color">Hotel</span
+            ><span class="interaction-color">.app</span></a
+          >
+        </div>
+        <div class="menu-nav">
+          <ul class="nav-list">
+            <li class="nav-list-item">
+              <a href="#" class="nav-link">Last Minute Deals</a>
+            </li>
+            <li class="nav-list-item"><a href="#" class="nav-link">Blog</a></li>
+            <li class="nav-list-item">
+              <a href="#" class="nav-link">About us</a>
+            </li>
+            <li class="nav-list-item">
+              <a href="#" class="nav-link">Contacts</a>
+            </li>
+          </ul>
+        </div>
+        <a href="#"><i class="fa-regular fa-circle-user"></i></a>
+      </div>
+
+      <!-- banner -->
+      <div class="banner">
+        <h1 class="banner-title">Find an apartment for your vacation</h1>
+        <p class="banner-desc">
+          We have several thousand apartments for every taste in every corner of
+          the globe
+        </p>
+      </div>
+
+      <!-- search bar -->
+      <form class="search-bar">
+        <div class="search-area">
+          <i class="fa-solid fa-location-dot"></i>
+          <div>
+            <p>Where</p>
+            <input
+              class="search-input"
+              type="text"
+              placeholder="Search destination"
+              name="destination"
+            />
+          </div>
+        </div>
+
+        <button class="search-btn">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+      </form>
+    </header>
+
+    <main>
+      <section class="benefits">
+        <div class="section-container">
+          <h2>Why Choose Us</h2>
+          <p class="beneits-description">
+            Because let's face it, our hotel search app knows the secret code to
+            unlock the hidden treasure of an infinite number of fantastic hotel
+            options.
+          </p>
+          <div class="benefits-list">
+            <div class="benefits-item">
+              <div class="benefits-icon">
+                <img src="images/payment.png" alt="" />
+              </div>
+              <p class="benefits-point">Payment methods</p>
+              <p>
+                We have a lot of them, from cryptocurrencies to credit cards.
+              </p>
+            </div>
+
+            <div class="benefits-item">
+              <div class="benefits-icon">
+                <img src="images/search.png" alt="" />
+              </div>
+              <p class="benefits-point">Simple search process</p>
+              <p>
+                We checked it out, even the kid did it, but it was our boss'
+                son.
+              </p>
+            </div>
+
+            <div class="benefits-item">
+              <div class="benefits-icon">
+                <img src="images/support.png" alt="" />
+              </div>
+              <p class="benefits-point">24/7 Support</p>
+              <p>
+                Is there something you don't understand? Feel free to call us.
+              </p>
+            </div>
+
+            <div class="benefits-item">
+              <div class="benefits-icon">
+                <img src="images/cat.png" alt="" />
+              </div>
+              <p class="benefits-point">We're nice</p>
+              <p>
+                We let you change your dates or get your money back anytime.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- offers section -->
+      <section class="special-offers">
+        <div class="section-container">
+          <h2>Special offers</h2>
+
+          <div class="hotel-container">
+            <div class="hotel-card">
+              <img
+                src="images/wilderness-club.png"
+                alt=""
+                class="hotel-image"
+              />
+              <div class="hotel-rating">
+                <p class="hotel-stars">
+                  <img src="images/star-icon.png" alt="" />
+                  <span>4.8</span>
+                </p>
+                <p class="hotel-hearts">
+                  <img src="images/heart-icon.png" alt="" />
+                </p>
+              </div>
+
+              <p class="hotel-title">Wilderness Club</p>
+              <p class="booking-features">2 Bedroom Combined Lodge</p>
+              <p class="booking-period">28 October — 1 November</p>
+              <div class="hotel-price">
+                <span class="dollar-amount">$2016</span><span>/6 night</span>
+              </div>
+
+              <div class="hotel-features">
+                <div class="hotel-features-item">
+                  <img src="images/double-bed.png" alt="" />
+                  <span>4 Beds</span>
+                </div>
+                <div class="hotel-features-item">
+                  <img src="images/person.png" />
+                  <span>8 Sleeps</span>
+                </div>
+                <div class="hotel-features-item">
+                  <img src="images/scale.png" />
+                  <span>1,350 Sq Ft</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="hotel-card">
+              <img
+                src="images/tuscan-garden-inn.png"
+                alt=""
+                class="hotel-image"
+              />
+              <div class="hotel-rating">
+                <p class="hotel-stars">
+                  <img src="images/star-icon.png" alt="" />
+                  <span>4.8</span>
+                </p>
+                <p class="hotel-hearts">
+                  <img src="images/heart-icon.png" alt="" />
+                </p>
+              </div>
+
+              <p class="hotel-title">Tuscan Garden Inn</p>
+              <p class="booking-features">2 Bedroom Combined Lodge</p>
+              <p class="booking-period">28 October — 1 November</p>
+              <div class="hotel-price">
+                <span class="dollar-amount">$2016</span><span>/6 night</span>
+              </div>
+
+              <div class="hotel-features">
+                <div class="hotel-features-item">
+                  <img src="images/double-bed.png" alt="" class="hotel-image" />
+                  <span>4 Beds</span>
+                </div>
+                <div class="hotel-features-item">
+                  <img src="images/person.png" />
+                  <span>8 Sleeps</span>
+                </div>
+                <div class="hotel-features-item">
+                  <img src="images/scale.png" />
+                  <span>1,350 Sq Ft</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="hotel-card">
+              <img src="images/park-plaza-lodge.png" alt="" />
+              <div class="hotel-rating">
+                <p class="hotel-stars">
+                  <img src="images/star-icon.png" alt="" />
+                  <span>4.8</span>
+                </p>
+                <p class="hotel-hearts">
+                  <img src="images/heart-icon.png" alt="" />
+                </p>
+              </div>
+
+              <p class="hotel-title">Park Plaza Lodge</p>
+              <p class="booking-features">2 Bedroom Combined Lodge</p>
+              <p class="booking-period">28 October — 1 November</p>
+              <div class="hotel-price">
+                <span class="dollar-amount">$2016</span><span>/6 night</span>
+              </div>
+
+              <div class="hotel-features">
+                <div class="hotel-features-item">
+                  <img src="images/double-bed.png" alt="" />
+                  <span>4 Beds</span>
+                </div>
+                <div class="hotel-features-item">
+                  <img src="images/person.png" />
+                  <span>8 Sleeps</span>
+                </div>
+                <div class="hotel-features-item">
+                  <img src="images/scale.png" />
+                  <span>1,350 Sq Ft</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="more-offers">
+            <a class="more-offers-cta" href="#!">See More Offers</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- reviews section -->
+      <section class="reviews">
+        <h2>Reviews</h2>
+        <div class="swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="images/jannike-borg.png" alt="" class="swiper__img" />
+              <p>
+                I was impressed by how efficiently the hotel app resolved a
+                booking issue, ensuring my stay remained stress-free and
+                enjoyable.
+              </p>
+              <p class="swiper__customer">
+                <span>Jannike Borg</span>, Publisher
+              </p>
+            </div>
+
+            <div class="swiper-slide">
+              <img src="images/lebron-durant.png" alt="" class="swiper__img" />
+              <p>
+                The hotel app exceeded my expectations with its user-friendly
+                interface, quick booking process, and excellent customer
+                support.
+              </p>
+              <p class="swiper__customer"><span>LeBron Durant</span>, Pilot</p>
+            </div>
+
+            <div class="swiper-slide">
+              <img src="images/kaarel-piho.png" alt="" class="swiper__img" />
+              <p>
+                The hotel app provided seamless booking, exceptional service,
+                and made my stay effortless and enjoyable.
+              </p>
+              <p class="swiper__customer">
+                <span>Kaarel Piho</span>, Chiropodist
+              </p>
+            </div>
+            <div class="swiper-slide">
+              <img src="images/sophia.jpg" alt="" class="swiper__img" />
+              <p>
+                I found the hotel app's seamless interface and efficient
+                problem-solving capabilities truly impressive
+              </p>
+              <p class="swiper__customer">
+                <span>Sophia Patel</span>, Software Developer
+              </p>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+
+          <div class="swiper-button-prev-un">
+            <i class="fa-solid fa-caret-left"></i>
+          </div>
+          <div class="swiper-button-next-un">
+            <i class="fa-solid fa-caret-right"></i>
+          </div>
+        </div>
+      </section>
+
+      <!-- recent posts section -->
+      <section class="recent-posts">
+        <div class="section-container">
+          <h2>Recent posts</h2>
+
+          <div class="posts-container">
+            <div class="posts-article">
+              <img src="images/post-1.png" alt="" class="posts-image" />
+              <div class="posts-info">
+                <span>May 23, 2023</span>
+                <div class="posts-timing">
+                  <img src="images/clock.png" alt="" />
+                  <span>5 minutes</span>
+                </div>
+              </div>
+
+              <h3 class="posts-title">My trip to Athens</h3>
+              <p class="posts-desc">
+                It would seem that in a city where Theseus, Plato and Epicurus
+                once walked, the very idea of the subway is alien to the city,
+                but already...
+              </p>
+            </div>
+
+            <div class="posts-article">
+              <img src="images/post-2.png" alt="" class="posts-image" />
+              <div class="posts-info">
+                <span>May 22, 2023</span>
+                <div class="posts-timing">
+                  <img src="images/clock.png" alt="" />
+                  <span>1 minute</span>
+                </div>
+              </div>
+
+              <h3 class="posts-title">Vilnius resorts</h3>
+              <p class="posts-desc">
+                I haven't seen any resorts in Vilnius, but there are wonderful
+                people and pubs
+              </p>
+            </div>
+
+            <div class="posts-article">
+              <img src="images/post-3.png" alt="" class="posts-image" />
+              <div class="posts-info">
+                <span>May 21, 2023</span>
+                <div class="posts-timing">
+                  <img src="images/clock.png" alt="" />
+                  <span>15 minutes</span>
+                </div>
+              </div>
+
+              <h3 class="posts-title">Tips for flying on a plane</h3>
+              <p class="posts-desc">
+                If you have a fear of flying, here's a helpful tip: bring your
+                co-pilot so you can take a nap while he steers the plane for you
+              </p>
+            </div>
+          </div>
+          <div class="more-posts">
+            <a class="more-posts-cta" href="#!">More Posts</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- footer -->
+      <footer>
+        <div class="footer-container">
+          <div class="footer-nav">
+            <div class="footer-section">
+              <h3 class="footer-section-title">Cuatomer Care</h3>
+              <ul class="footer-section-list">
+                <li><a href="#">Booking Policy</a></li>
+                <li><a href="#">Changing Dates</a></li>
+                <li><a href="#">Canceling Booking</a></li>
+              </ul>
+            </div>
+
+            <div class="footer-section">
+              <h3 class="footer-section-title">About Us</h3>
+              <ul class="footer-section-list">
+                <li><a href="#">Why Hotel.app</a></li>
+                <li><a href="#">Contact us</a></li>
+                <li><a href="#">Careers</a></li>
+              </ul>
+            </div>
+
+            <div class="footer-section">
+              <h3 class="footer-section-title">My Account</h3>
+              <ul class="footer-section-list">
+                <li><a href="#">Sign in/Register</a></li>
+                <li><a href="#">My wishlist</a></li>
+                <li><a href="#">My orders</a></li>
+              </ul>
+            </div>
+
+            <form action="#" class="subscription-form">
+              <h3 class="subscription-title">Subscribe to Newsletter</h3>
+              <p>Your email</p>
+              <div class="email-group">
+                <input type="email" class="email-input" />
+                <button class="subscription-btn">
+                  <img src="images/send-btn.png" alt="" />
+                </button>
+              </div>
+            </form>
+          </div>
+
+          <hr class="footer-hr" />
+
+          <div class="lower-footer">
+            <a href="#" class="logo"
+              ><span class="accent-color">Hotel</span
+              ><span class="interaction-color">.app</span></a
+            >
+
+            <div class="social-media">
+              <a href="#"><i class="fa-brands fa-viber"></i></a>
+              <a href="#"><i class="fa-brands fa-facebook"></i></a>
+              <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+              <a href="#"><i class="fa-brands fa-youtube"></i></a>
+              <a href="#"><i class="fa-brands fa-telegram"></i></a>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </main>
+    <script src="src/app.js"></script>
+  </body>
+</html>
